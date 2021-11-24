@@ -1,16 +1,15 @@
 {
-    "name": ":vendor/:package_name",
-    "description": ":package_description",
+    "name": "tfd/statamic-bard-text-styles",
+    "description": "",
     "license": "MIT",
     "authors": [
         {
-            "name": ":package_name",
-            "email": ":author_name",
-            "homepage": ":author_website"
+            "name": "statamic-bard-text-styles",
+            "homepage": "https://21st.digital"
         }
     ],
     "require": {
-        "php": "^7.4",
+        "php": "^7.4 || ^8.0",
         "statamic/cms": "^3.0.34"
     },
     "require-dev": {
@@ -22,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Octoper\\Skeleton\\": "src/"
+            "TFD\\StatamicBardTextStyles\\": "src/"
         }
     },
     "autoload-dev": {
@@ -32,12 +31,12 @@
     },
     "extra": {
         "statamic": {
-            "name": ":package_name",
-            "description": ":package_description"
+            "name": "statamic-bard-text-styles",
+            "description": ""
         },
         "laravel": {
             "providers": [
-                "Octoper\\Skeleton\\ServiceProvider"
+                "TFD\\StatamicBardTextStyles\\ServiceProvider"
             ]
         }
     },

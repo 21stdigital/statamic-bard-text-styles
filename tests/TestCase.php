@@ -4,7 +4,7 @@ namespace Tests;
 
 use Statamic\Extend\Manifest;
 use Orchestra\Testbench\TestCase as OrchestraTestCase;
-use Octoper\Skeleton\ServiceProvider;
+use TFD\StatamicBardTextStyles\ServiceProvider;
 use Statamic\Providers\StatamicServiceProvider;
 use Statamic\Statamic;
 
@@ -31,8 +31,8 @@ abstract class TestCase extends OrchestraTestCase
 
         $app->make(Manifest::class)->manifest = [
             'skeleton' => [
-                'id' => ':vendor/:package_name',
-                'namespace' => 'Octoper\\Skeleton\\',
+                'id' => 'tfd/statamic-bard-text-styles',
+                'namespace' => 'TFD\\StatamicBardTextStyles\\',
             ],
         ];
     }
