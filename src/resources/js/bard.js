@@ -2,7 +2,7 @@ import TextStyle from "./TextStyle";
 import TextStyleButton from "./TextStyleButton";
 
 Statamic.booting(() => {
-  const customStyles = Statamic.$config.get('bard-custom-styles') || null;
+  const customStyles = Statamic.$config.get('bard-custom-text-styles') || null;
   window.bardCustomStyles = customStyles
 
   Statamic.$bard.extend(({ node }) => node(new TextStyle));
