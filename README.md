@@ -4,8 +4,7 @@
 [![Packagist](https://img.shields.io/packagist/v/21stdigital/statamic-bard-text-styles)](https://)
 ![Test Suite](https://github.com/21stdigital/statamic-bard-text-styles/workflows/Tests/badge.svg)
 
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what
-PSRs you support to avoid any confusion with users and contributors.
+This addon for Statamic allows you to select custom paragraph styles in the bard editor.
 
 ## Installation
 
