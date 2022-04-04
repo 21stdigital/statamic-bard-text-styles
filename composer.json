@@ -10,7 +10,7 @@
     ],
     "require": {
         "php": "^7.4 || ^8.0",
-        "statamic/cms": "^3.0.34"
+        "statamic/cms": "^3.0.34 || ^3.3"
     },
     "require-dev": {
         "pestphp/pest": "^0.3.15",
